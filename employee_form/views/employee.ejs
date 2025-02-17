@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Form</title>
+</head>
+<body>
+    <h2>Employee Details Form</h2>
+    <form action="/details" method="POST">
+        <label>Name:</label>
+        <input type="text" name="name" required> <br>
+
+        <label>Age:</label>
+        <input type="number" name="age" required> <br>
+
+        <label>Date of Joining:</label>
+        <input type="date" name="dateOfJoining" required> <br>
+        <label>Gender: </label>
+        <input type="radio" name="Gender" value="Male">
+        <label for="Gender">Male</label>
+        <input type="radio" name="Gender" value="Female"
+        <label for="Gender">Female</label> <br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
